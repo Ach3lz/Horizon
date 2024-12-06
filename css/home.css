@@ -1,0 +1,161 @@
+.hero{
+    background-image: url(/images/proj..webp);
+    height: 100vh; 
+    width: 100%;  
+    background-size: cover;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero .hero-head .hero-nav ul{
+    list-style-type: none; 
+    display: flex; 
+    justify-content:center; 
+    align-items: center;
+    margin-left: auto;
+}
+
+.hero .hero-head .hero-nav ul li{
+    padding: 40px;
+    font-size: 27px;
+    font-weight: 300;
+    color: white;
+}
+
+.hero-1{
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+    color: white;
+}
+
+.welcome{
+    font-size: 40px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.horizons{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.signup{
+    background-color: rgb(123, 216, 123);
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border: none;
+    border-radius: 25px;
+    margin-left: 650px;
+    cursor: pointer;
+}
+
+.content{
+    padding-top: 150px;
+}
+
+.hero-2{
+    background-color: aliceblue;
+}
+
+.hero-2 .images{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:50px;
+    margin-left: 50px;
+    padding-bottom: 50px;
+}
+
+.hero-2 .images .img-1{
+    width: 350px;
+    height: 250px;
+}
+
+.hero-2 .images .img-2{
+    width: 350px;
+    height: 250px;
+}
+
+.hero-2 .images .img-3{
+    width: 350px;
+    height: 250px;
+}
+
+.hero2-head{
+    text-align: center;
+    font-size: 75px;
+}
+
+.hero2-head2{
+    text-align: center;
+    font-size: 25px;
+    padding:30px;
+}
+
+.hero-3{
+    background-color: aliceblue;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 80px;
+  }
+  
+  .feature-item {
+    background: #faf4f4;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .icon {
+    background-color: #4caf50;
+    color: white;
+    font-size: 24px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 15px;
+  }
+  
+  h3 {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  p {
+    font-size: 14px;
+    color: #666;
+  }
+
+
+  .hero-3-head{
+    text-align: center;
+    font-size: 75px;
+}
+
+.hero-3-head2{
+    text-align: center;
+    font-size: 25px;
+    padding:30px;
+}
